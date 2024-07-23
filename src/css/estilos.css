@@ -1,0 +1,82 @@
+html {
+    font-family: 'Open Sans', 'Sans serif';
+}
+
+body {
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+}
+
+/*HEADER*/
+.header {
+    align-self: start;
+}
+
+/*MAIN*/
+.main {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 30px;
+}
+
+
+.main .maininfo {
+    max-width: 600px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+
+}
+
+.main h1 {
+    font-size: 40px;
+}
+
+.main p {
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 40%;
+    padding: 20px;
+}
+
+.main a {
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: white;
+    width: fit-content;
+    padding: 8px 40px;
+    color: hsl(257, 40%, 49%);
+    font-weight: 500;
+}
+
+.main a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+/*FOOTER*/
+.social {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 100px;
+}
+
+.social a {
+    color: hsl(300, 24%, 96%);
+    padding: 5px;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+
+.social a:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
